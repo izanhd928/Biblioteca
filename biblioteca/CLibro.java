@@ -20,15 +20,24 @@ private int numPaginas;
  * @param numPaginas
  * @return
  */
-
+/**
+ * Obtiene el título del libro
+ * @return el título del libro
+ */
     public String getTitulo() {
         return titulo;
     }
-
+/**
+ * establece el título del libro
+ * @param titulo el título del libro
+ */
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
-
+/**
+ * obtiene el autor del libro
+ * @return el autor del libro
+ */
     public String getAutor() {
         return autor;
     }
@@ -37,6 +46,10 @@ private int numPaginas;
         this.autor = autor;
     }
 
+    /**
+ * obtiene el número de páginas del libro
+ * @return el número de páginas del libro
+ */
     public int getNumPaginas() {
         return numPaginas;
     }

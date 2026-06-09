@@ -14,8 +14,8 @@ public class Main {
 
     private static void operativa_libro(CLibro libro1, int ejemplares) {
         System.out.println("Datos del libro:");
-        System.out.println("Título: " + libro1.titulo);
-        System.out.println("Autor: " + libro1.autor);
-        System.out.println("Páginas: " + libro1.numPaginas);
+        System.out.println("Título: " + libro1.getTitulo());
+        System.out.println("Autor: " + libro1.getAutor());
+        System.out.println("Páginas: " + libro1.getNumPaginas());
     }
 }
