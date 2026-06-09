@@ -6,7 +6,7 @@ public class Main {
         CLibro libro1 = new CLibro("El Quijote", "Miguel de Cervantes", 863);
 
         // Operaciones a agrupar en el método 'operativa_libro'
-        operativa_libro(libro1, 67);
+        operativa_libro(libro1, 5);
         
         libro1.prestar();
         libro1.devolver();
